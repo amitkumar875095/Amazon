@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	font-family: Arial;
+	border: border-box;
+}
+header{
+	display: flex;
+	width: 100vw;
+	height: auto;
+	flex-direction: column;
+}
+.logo{
+	width: 100vw;
+	height: 9vh;
+
+	background-color:#ffffff ;
+	margin-bottom: 2rem;
+}
+.logo_image{
+	height: 100%;
+	width: 10%;
+	background-image: url("Amazon-Logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: auto;
+
+}
+.sign_button{
+	width: 100vw;
+	height: auto;
+	background-color: #ffffff;
+}
+.button{
+	width: 25%;
+	height: 50vh;
+	background-color: #ffffff;
+	margin: auto;
+	border: solid 1px #e2e2e2;
+	border-radius: 1rem;
+	padding-left: 2rem;
+	padding-top: 2rem;
+}
+
+.button p{
+   font-family: sans-serif;
+   font-size: 2rem;
+   margin-bottom: 1.2rem;
+}
+.button legend{
+font-family: sans-serif;
+font-size: 1rem;
+font-weight: 700;
+padding-bottom: 0.4rem;
+}
+.button input{
+	width: 90%;
+	height: 2rem;
+	border-radius: 0.3rem;
+}
+.continue_button{
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-top: 1rem ;
+	width: 90%;
+	height: 2rem;
+	border-radius: 0.4rem;
+	background-color: #ffd814;
+	border: none;
+	margin-bottom: 2rem;
+}
+.condition{
+
+	font-weight: 400;
+	font-size: 0.8rem;
+}
+.blue_class{
+	color: blue;
+}
+.margin_class{
+	margin-top: 3rem;
+}
+.create_account{
+	height: auto;
+	width: 100vw;
+
+	margin-top: 1rem;
+}
+.small_box{
+	margin: auto;
+	width: 25%;
+	height: auto;
+}
+.legend_border{
+	border-right: none;
+	border-bottom: none ;
+	border-left: none;
+	text-align: center;
+	border-color: #f7f7f7;
+	color: grey;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+}
+.color{
+	background-color: white;
+	border: solid 1px grey;
+	margin-left: 1.5rem;
+	font-size: 1rem;
+	box-shadow: 0px 0px 3px 5px #ebeded;
+}
+.guest{
+
+	color: black;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 600;
+	
+}

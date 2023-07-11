@@ -1,0 +1,254 @@
+*{
+	margin: 0px;
+	font-family: Arial;
+	border: border-box;
+}
+/*titile icon*/ 
+.title_icon{
+	border-radius: 50px;
+}
+/*Navbar*/
+.navbar{
+	height: 60px;
+	background-color: #131921;
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+	align-items: center;
+	position: relative;
+
+
+}
+.navlogo{
+	width: 100px;
+   height: 50px;
+}
+.logo{
+     background-image: url("amazon_logo.png");
+     background-size: cover;
+     height: 60px;
+     background-repeat: no-repeat;
+    }
+    .address_logo{
+    	height: 50px;  	
+    	padding-top: 45px;
+    }
+    .line1{
+    	
+    	font-size: 12px;
+    	font-family: Arial;
+    }
+  .line2{
+  	font-size: 14px;
+  	font-family: Arial;
+    font-weight: 650;
+  }
+                                           /*Search*/
+  .search_bar_menu{
+   display: flex;
+   justify-content: baseline;
+
+  }
+
+  .search_bar_menu 
+    .dropdown_list{
+    	background-color: #cccccc;
+    	color: #0f1111;
+      border: 0px;
+      height: 40px;
+      width: 45px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    
+  }
+  .input_search_bar{
+  	border: 0px;
+  	height: 38px;
+  	width: 400px;
+  }
+  .search_button_image{
+  	background-color: goldenrod;
+  	border: 0px;
+  	height: 40px;
+  	width: 45px;
+  	border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+  }
+                                   /*  flag*/
+  .flag_box{
+  	display: flex;
+  }
+  .flag{
+  	padding-top: 7px;
+  }
+/*                                    Cart*/
+  .cart_div{
+  	display: flex;
+  }
+  .cart_text{
+  	padding-top: 7px;
+  }
+  .navbar_class :hover{
+   border: solid 1px white;
+    border-radius: 4px;
+  }
+  .navigation{
+  	width: 100vw;
+  	background-color: #232f3e;
+  	height: 40px;
+  	display: flex;
+  	justify-content: start;
+  	align-items: center;
+  	color: #f5f6f6;
+  }
+  .navigation div{
+  	padding: 10px 16px ;
+  	font-family: sans-serif;
+  	font-size: 14px;
+
+  }
+  .navigation :hover{
+  	 border: solid 1px white;
+  	 border-radius: 4px;
+  }
+  .main{
+  	width: 100vw;
+  	height: auto
+  }
+
+/*                                       Main*/
+  .main_order{
+  	background-color: #e3e6e6;
+  	height: auto;
+  	 background-image: url("hero_image.jpg");
+  	 background-size: contain;
+  	width: 100vw;
+  	margin: 0px;
+  	display: flex;
+  	justify-content: space-around;
+  	background-repeat: no-repeat;
+    flex-wrap: wrap;
+    padding-top: 200px;
+  }
+.main_order div{
+	height: 350px;
+	width: 400px;
+	background-color: white;
+
+	font-family: sans-serif;
+  padding: 4px;
+  margin-top: 40px;
+}
+.main_order h3{
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+	margin-right: 3px;
+	margin-bottom: 20px;
+
+}
+
+.main_order img{
+	width: 90%;
+   padding: 4px;
+   height: 60%;
+   margin-left: 15px;
+}
+.main_order p{
+	margin-top: 20px;
+	color: blue;
+	margin-left: 15px;
+
+}
+.item_list{
+	height: 350px;
+	width: 325px;
+	background-color: white;
+	margin-top: 100px;
+	font-family: sans-serif;
+}
+
+footer{
+	width: 100vw;
+	height: auto;
+}
+.btotop{
+
+	font-family: sans-serif;
+	text-align: center;
+	height: 25px;
+	width: 100vw;
+	background-color: #37475a;
+	padding: 15px;
+
+}
+.btotop a{
+	color: white;
+    text-decoration: none;
+}
+.contact{
+	display: flex;
+	background-color: #232f3e;
+	height: auto;
+	width: 100vw;
+	justify-content: space-around;
+}
+.contact div{
+	margin-top: 50px;
+	width: 180px;
+	height: auto;
+	background-color: red;
+	color: white;
+	text-left: center;
+	background-color: #232f3e;
+	border: none;
+	margin-bottom: 100px;
+
+}
+.contact p{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+
+}
+.country_footer{
+	border-top: solid 1px #323d4c;
+	background-color:#232f3e ;
+	width: 100vw;
+	height: 70px;
+}
+.footer_logo{
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-left: 500px;
+	display: flex;
+    
+}
+.footer_image_logo{
+
+	height: 100%;
+	width: 20%;
+
+	background-image: url("amazon_logo.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+country_footer footer_logo div{
+	display: inline-block;
+}
+.language_footer{
+	padding-top: 20px;
+}
+.language_select{
+	background-color: #232f3e;
+	color: white;
+	font-family: sans-serif;
+	width: 100px;
+}
+.Accounts{
+	text-decoration: none;
+	color :white;
+}
